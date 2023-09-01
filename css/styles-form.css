@@ -17,15 +17,16 @@ header{
     width: 100%; 
 }
 
+#posicion{
+    position: absolute;
+    margin-left: 8%;
+    top: 50px;
+}
 .descuento{
     background-color: #1CD1B0;
     padding: 0.2rem;
 }
 
-
-.tienda{
-    height: 3.5rem;
-}
 
 nav{
     background-color: #001D2D ;
