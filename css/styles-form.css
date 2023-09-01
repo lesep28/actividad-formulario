@@ -6,19 +6,20 @@ body{
 
 header{
     background-color:#00669F ;
-    height: 18%;
+    height: 15%;
     margin-bottom: 2%;
-    border: 5px solid red;
+    width: 100%;
+    padding-left: 0%;
+    
 }
 
 nav{
     background-color: #001D2D ;
     color: white;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: flex-end;
-    border: 2px solid green;
+    flex-direction: row-reverse;
+    padding-right: 2%;
+    padding-left: 0%;
 }
 
 .descuento{
