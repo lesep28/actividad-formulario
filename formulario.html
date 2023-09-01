@@ -23,26 +23,26 @@
     <div class="container2">
         <div class="head">
         <h1>Añadí tu super!</h1>
-        <span>Agregá tu personaje favorito completando las opciones.</span>
+        <p class="interlineado">Agregá tu personaje favorito completando las opciones.</p>
     </div>
         <form class="form">
             <div class="form-groups">
                 <div class="column">
 
-                    <label for="nombre">Nombre</label>
+                    <label  for="nombre">*Nombre</label>
                     <input type="text" name="nombre" required tabindex="1">
 
 
                     <label for="fecha">Fecha:</label>
                     <input type="date" id="fecha" name="fecha" required>
 
-                    <label for="descripcion">Descripción:</label>
-                    <textarea id="descripcion" name="descripcion" rows="4" required></textarea>
+                    <label for="descripcion">  </label>
+                    <textarea id="descripcion" name="descripcion" rows="4" placeholder="Descripción" required></textarea>
                 </div>
 
                 <div class="column">
 
-                    <label for="especie">Especie</label>
+                    <label for="especie">*Especie</label>
                     <select name="nombre-especie">
                         <option value="" disabled selected>Seleccione</option>
                         <option>superhéroe</option>
@@ -50,10 +50,10 @@
                         <option>civil</option>
                     </select>
 
-                    <label for="foto">Agregar Foto:</label>
+                    <label class="margen">Agregar Foto:</label>
                     <input type="file" id="foto" name="foto" accept="image/*" multiple>
 
-                    <p>Poderes</p>
+                    <p class="margen">Poderes</p>
 
                     <label for="poder1" class="vert"><input type="checkbox" id="volar" name="poderes" value="volar">
                         Volar</label>
@@ -69,8 +69,8 @@
                     <label for="poder4"><input type="checkbox" id="billetera-gorda" name="poderes"
                             value="billetera-gorda">
                         Billetera gorda</label>
-                    <br>
-                    <p>Tipo de personaje</p>
+                    <hr></hr>
+                    <p class="margen">Tipo de personaje</p>
                     <label for="tipo1" class="vert"><input type="radio" id="personaje" name="personaje"
                             value="heroe/heroina">
                         Héroe / Heroina</label>
