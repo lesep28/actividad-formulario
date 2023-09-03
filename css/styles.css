@@ -127,10 +127,13 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #00669F;
-    border-radius: 50%;
     color: #FFF;
 }
+
+.button-plus:hover svg circle {
+    fill: #000;
+}
+
 
 .plus {
     position: absolute;
